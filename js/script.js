@@ -12,7 +12,7 @@ function createCards(data) {
     console.log('looping on creation');
     var newCard = document.createElement("div");
     newCard.className = "col-lg-4";
-    newCard.innerHTML = `<div class="card mb-3" style="max-width: 20rem;">
+    newCard.innerHTML = `<div class="card mb-5" style="max-width: 20rem;">
         <div class = "overlay-container">
           <img class="card-img-top" src="${data[i].photo}" alt="">
           <div class="overlay">
