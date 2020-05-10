@@ -1,0 +1,115 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  color: whitesmoke;
+  background-color: rgba(0, 17, 63, 0.835);
+}
+
+.fa-airbnb {
+  color: rgb(175, 127, 221);
+}
+
+/* Cards */
+
+
+.card {
+  border-radius: 2%;
+  border: 2px solid rgb(0, 17, 63);
+  box-shadow: 6px 6px 15px rgb(0, 17, 63);
+  margin: 0 auto;
+  height: 450px;
+}
+
+.card-img-top {
+  padding: 0.5rem;
+}
+
+.overlay-container {
+  position: relative;
+}
+
+.overlay-container:hover .overlay{
+  bottom: 0;
+  height: 100%;
+}
+
+.overlay-container .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:  rgba(0, 17, 63, 0.835);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: all .5s ease;
+}
+
+.spacer {
+  flex: 1;
+}
+
+/* Pagination*/
+
+
+.pagination .page-item .page-link {
+  color: black;
+  border: 1px solid rgb(0, 17, 63);
+}
+
+.pagination .page-item.active .page-link {
+  background: rgb(7, 10, 54);
+  color: #fff;
+}
+
+
+/* Footer */
+
+.footer-container {
+  position: relative;
+  margin-bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 17, 63, 0.835);
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  padding: 1rem 1rem 0;
+  color: rgb(174, 218, 255);
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  flex-shrink: none;
+
+}
+
+.footer-content a {
+  color: rgb(174, 218, 255);
+}
+
+.footer-content a:hover {
+  text-decoration: none;
+  color: rgb(175, 127, 221);
+}
