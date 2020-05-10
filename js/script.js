@@ -22,7 +22,7 @@ function createCards(data) {
         <div class="card-header">${data[i].property_type}</div>
         <div class="card-body text-dark">
           <h5 class="card-title">${data[i].name}</h5>
-          <p class="card-text">Price: <span id="price">R$ ${data[i].price}</span> </p>
+          <p class="card-text">Price: <span id="price">R$ ${data[i].price} per night</span> </p>
         </div>
       </div>
     </div>`
